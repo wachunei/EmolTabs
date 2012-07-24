@@ -1,0 +1,16 @@
+{
+	"name": "EmolTabs",
+	"version": "0.2",
+	"description": "Devuelve el uso del click del medio para navegar por Emol.com",
+	"icons": { 	"48": "icon_48.png",
+				"128": "icon_128.png",
+				"256": "icon_256.png"
+				},
+	"content_scripts": [
+    {
+      "matches": ["http://www.emol.com/*"],
+      "js": ["jquery-1.7.2.min.js" ,"tabs.js"]
+    }
+  ]
+				
+}
